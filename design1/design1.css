@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightskyblue;
+}
+
+.rectangle{
+    position:absolute;
+    top:0;
+    left:0;
+    width:400px;
+    height:600px;
+
+    background-color: blue;
+}
+
+.circle1{
+    position: absolute;
+
+    top:400px;
+    left:400px;
+
+    background-color: blue;
+
+    width:200px;
+    height:200px;
+
+    border-radius: 100px;
+}
+
+.circle2{
+    position: absolute;
+
+    top:600px;
+    left:200px;
+
+    background-color: blue;
+
+    width:200px;
+    height:200px;
+
+    border-radius: 100px;
+}
+
+.rect1{
+    position: absolute;
+
+    top:600px;
+    left:200px;
+
+    background-color: blue;
+
+    width:200px;
+    height:100px;
+}
+
+.rect2{
+    position: absolute;
+
+    top:400px;
+    left:400px;
+
+    background-color: blue;
+
+    width:100px;
+    height:200px;
+}
